@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include weekly_bank_report *.css
+recursive-include weekly_bank_report *.csv
+recursive-include weekly_bank_report *.html
+recursive-include weekly_bank_report *.ico
+recursive-include weekly_bank_report *.js
+recursive-include weekly_bank_report *.json
+recursive-include weekly_bank_report *.md
+recursive-include weekly_bank_report *.png
+recursive-include weekly_bank_report *.py
+recursive-include weekly_bank_report *.svg
+recursive-include weekly_bank_report *.txt
+recursive-exclude weekly_bank_report *.pyc
